@@ -1,0 +1,239 @@
+*{ padding:0}
+
+body{
+    font-family: 'Lobster';  
+    background: url(./images/pimenta.jpg);
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.body{
+    background: url(./images/fundo.jpg);
+    border-radius: 0rem 0rem .8rem .8rem
+}
+
+.body img{
+    padding-left: 29rem
+}
+
+header ul{
+    position: relative;
+    background: rgb(40, 97, 17);
+    margin: 0px;
+    padding-left: 24.8rem;
+    border-radius: .8rem .8rem 0rem 0rem
+}
+
+.a{
+    position: relative;
+    background: rgb(40, 97, 17);
+    margin: 0px;
+    padding-left: 19.5rem;
+    border-radius: .8rem .8rem 0rem 0rem
+}
+
+header ul li{
+    display: inline-block;
+    border-bottom: 3px solid rgb(40, 97, 17);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(251, 255, 6);
+    padding: 25px;
+    display: block;
+    font: 600 1.5rem Lobster
+}
+
+header ul li:hover{
+    background: rgb(63, 119, 31)
+}
+
+header ul ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+
+header ul ul li{
+    display: block;
+    background: #831111;
+}
+
+header ul li:hover ul{
+    display: block
+}
+
+
+.top{
+    border-radius: .8rem;
+    padding: 0rem 2rem 0rem 2rem;
+    margin: 0rem 2rem 2rem 2rem
+}
+
+.title{
+    margin-right:12rem;
+    font-size: 6rem;
+    color: rgb(177, 9, 9);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(116, 8, 8); /* cor da borda */
+}
+
+.top hr{
+    max-width: 60%
+}
+
+h1,
+h2{
+    color:rgb(229, 233, 31);
+    font-size: 2.5rem;
+    margin-left: 12rem;
+}
+
+.top .menutop h1{
+    align-items: center;
+    border-radius: .3rem;
+    margin-left: 33.6rem;
+    color: rgb(11, 143, 11);
+}
+
+.menutop p{
+    max-width: 700px;
+    margin: 0rem 0rem 0rem 15rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem
+}
+
+.background{
+    background: rgb(32, 97, 23);
+    border-radius: .8rem .8rem 0rem 0rem
+}
+
+
+.pizzasalgada,
+.pizzasalgada img{
+    background: url(./images/calabresa.png);
+    height: 280px;
+    border-radius: .8rem;
+    margin: 0rem 25rem 0rem 25rem;
+}
+
+.pizzalight,
+.pizzalight img{
+    background: url(./images/light.jpg);
+    height: 280px;
+    border-radius: .8rem;
+    margin: 0rem 25rem 0rem 25rem
+}
+
+.pizzadoce,
+.pizzadoce img{
+    background: url(./images/doce.jpeg);
+    height: 280px;
+    border-radius: .8rem;
+    margin: 0rem 25rem 0rem 25rem
+}
+
+.bebidas,
+.bebidas img{
+    background: url(./images/bebidas.jpg);
+    height: 280px;
+    border-radius: .8rem;
+    margin: 0rem 25rem 0rem 25rem
+}
+
+p.imgname{
+    font-size: 3rem;
+    color: rgb(252, 252, 252);
+    
+    text-decoration: none;
+}
+
+#sobre p,
+#sobre ul{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    padding: 0rem 10rem 0rem 18rem
+}
+
+#contato ul{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    padding: 0rem 10rem 0rem 18rem
+}
+
+button.button{
+    margin: 9rem 14rem;
+    border-radius: .4rem;
+    height: 2rem;
+    width: 6rem;
+    background: rgb(255, 255, 255);
+    font-family: Lobster;
+    font-size: 1.2rem;
+    transition: .2s
+}
+
+.button:hover{
+    cursor:pointer;
+    background: rgb(114, 199, 65)
+}
+
+.card{
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 4rem;
+    color: rgb(218, 7, 7);
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: rgb(116, 8, 8);
+}
+ 
+table{
+    width: 900px;
+    margin: 2rem 20rem 2rem 16rem;
+    background: url(./images/cardapios.jpg);
+}
+
+table th{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+    color:rgb(212, 0, 0)
+}
+
+table td{
+    padding: .2rem 2rem .2rem;
+    color: rgb(212, 209, 209);
+}
+
+table .number{
+    color: rgb(248, 0, 0);
+    font-size: x-large;
+}
+
+table th.preçoB,
+td.preçoB{
+    color: rgb(11, 143, 11)
+}
+
+table th.preçoG{
+    color:rgb(245, 179, 37)
+}
+
+.footer{
+    background: rgb(40, 97, 17);
+    justify-content: space-between;
+    padding-left: 8rem;  
+}
+
+.footer p{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem
+}
+
+#onde{
+    margin-left: 17rem;
+    margin-right: 21.2rem;
+    padding-left: .5rem;
+    border: 1px solid white;
+    border-radius: .8rem;
+    background: white
+}
+

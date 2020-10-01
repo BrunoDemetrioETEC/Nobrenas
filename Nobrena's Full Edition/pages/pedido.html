@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nobrena's - Pedido</title>
+
+    <link href="./styles/forms.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="formbody">
+
+        <ul>
+            <li><a href="/pages/index.html#contato">Disk</a>
+                <ul>
+                    <li><a href="contato.html">Entre em Contato</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/index.html">Home</a></li>
+
+            <li><a href="/pages/cardapio.html">Menu</a>
+            </li>
+        </ul>
+
+
+        <img src="./styles/images/logo.png">
+        <p>A Nobrena's agradece a preferência! Selecione abaixo seu pedido e a forma de pagamento.</p>
+
+        <form action="">
+            <fieldset>
+                <legend><b>Dados Para Pedido</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="filial"><b>Selecione uma de nossas filiais:</b></label></td>
+                        <td><select required>
+                                <option value="">Selecione (Marília, Assis ou Ourinhos)</option>
+                                <option value="Marília-SP"> Marília: Rua Deputado Salles Filho, 469 - Centro </option>
+                                <option value="Assis-SP"> Assis: Rua Aiaca, 701 - Eldorado </option>
+                                <option value="Ourinhos-SP"> Ourinhos: Rua Silvio Galante, 202 - Demarchi </option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nome"><b>Nome: </b></label> </td>
+                        <td><input type="text" id="nome" name="nome" size="50" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="endereco"><b>Endereço:</b></label></td>
+                        <td><input type="text" name="end" id="endereco" size="50" required /></td>
+                        <td><label for="numero"><b>N°:</b></label></td>
+                        <td><input type="text" id="numero" name="numero" size="1" required /></td>
+                    </tr>
+                    <tr>
+                        <td><b>Tamanho da Pizza:</b>
+                        <td><select name="tamanho" required>
+                                <option value="">Selecione</option>
+                                <option value="broto">Broto</option>
+                                <option value="grande">Grande</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <td><b>Sabor da Pizza:</b></td>
+                    <td><select name="sabor" required>
+                            <option value="">Selecione</option>
+                            <option value="calabresa">1 - Calabresa</option>
+                            <option value="mussarela">2 - Mussarela</option>
+                            <option value="calabresa com cat">3 - Calabresa com Catupiry</option>
+                            <option value="frango com cat">4 - Frango com Catupiry</option>
+                            <option value="caipira">5 - Caipira</option>
+                            <option value="portuguesa">6 - Portuguesa</option>
+                            <option value="4 queijos">7 - Quatro Queijos</option>
+                            <option value="palmito">8 - Palmito</option>
+                            <option value="marguerita">9 - Marguerita</option>
+                            <option value="milho">10 - Milho</option>
+                            <option value="brócolis">11 - Brócolis</option>
+                            <option value="light plus">12 - Light Plus</option>
+                            <option value="brigadeiro">13 - Brigadeiro</option>
+                            <option value="ouro branco">14 - Ouro Branco</option>
+                            <option value="mega abacaxi">15 - Mega Abacaxi</option>
+                            <option value="da nelena">16 - Da Nelena</option>
+                            <option value="ichigo">17 - Ichigo</option>
+                            <option value="puro choco">18 - Puro Choco</option>
+                            <option value="banana doce">19 - Banana Doce</option>
+                            <option value="devisate especial">20 - Devisate Especial</option>
+                        </select>
+                    </td>
+
+                    <tr>
+                        <td><b>Adicionais: </b></td>
+                        <td><input type="checkbox" name="adicionais" value="por" />
+                            Bacon
+                            <input type="checkbox" name="tipo" value="por" />
+                            Catupiry
+                            <input type="checkbox" name="tipo" value="por" />
+                            Parmesão
+                            <input type="checkbox" name="tipo" value="por" />
+                            Provolone
+                            <input type="checkbox" name="tipo" value="por" />
+                            Cheddar </br>
+                            <input type="checkbox" name="tipo" value="por" />
+                            Cream Cheese
+                            <input type="checkbox" name="tipo" value="por" />
+                            Gorgonzola
+                            <input type="checkbox" name="tipo" value="por" />
+                            Champignon </br>
+                            <input type="checkbox" name="tipo" value="por" />
+                            Mussarela
+                            <input type="checkbox" name="tipo" value="por" />
+                            Cebola
+                            <input type="checkbox" name="tipo" value="por" />
+                            Azeitonas
+                            <input type="checkbox" name="tipo" value="por" />
+                            Palmito
+                            <input type="checkbox" name="tipo" value="por" />
+                            Ovos
+                        </td>
+                    </tr>
+
+                    <td><b>Bebida:</b>
+                    <td><select name="bebida">
+                            <option value="">Selecione</option>
+                            <option value="suco laranja">Suco de Laranja - 1L</option>
+                            <option value="suco morango">Suco de Morango - 1L</option>
+                            <option value="coca1">Coca Cola - 1L</option>
+                            <option value="coca2">Coca Cola - 2L</option>
+                            <option value="coca6">Coca Cola - 600ml</option>
+                            <option value="fantaU2">Fanta Uva- 2L</option>
+                            <option value="fantau6">Fanta Uva - 600ml</option>
+                            <option value="fantal2">Fanta Laranja - 2L</option>
+                            <option value="fantal6">Fanta Laranja - 600ml</option>
+                            <option value="guarana">Guaraná Kuat - 2L</option>
+                            <option value="guarana6">Guaraná Kuat - 600ml</option>
+                            <option value="sprite">Sprite - 2L</option>
+                        </select>
+                    </td>
+                </table>
+            </fieldset>
+            </br>
+            <fieldset class="payment">
+                <legend><b>Dados para pagamento</b></legend>
+                <table>
+                    <tr>
+                        <td><b>Forma de Pagamento:</b></td>
+                        <td><select required>
+                                <option value="Selecione">Selecione</option>
+                                <option value="dinheiro">Dinheiro</option>
+                                <option value="cartão">Cartão</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><b>Troco?</b>
+                        <td>
+                            <input value="R$" size="6"></input></td>
+                    </tr>
+                    <th>
+                        <button class="submit" type="submit">Confirmar</button>
+                        <button class="reset" type="reset">Cancelar</button>
+                    </th>
+                </table>
+            </fieldset>
+        </form>
+
+        <div class="footer">
+            <p>Website por: Ana Helena, Bruno Demétrio e João Victor - 1º ETIM DS | </br> Etec Antônio Devisate |
+                01/10/2020</p>
+        </div>
+    </div>
+</body>
+
+</html>

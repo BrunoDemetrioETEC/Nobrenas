@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nobrena's - Contato</title>
+
+    <link href="./styles/forms.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="formbody">
+        <ul>
+            <li><a href="/pages/index.html#contato">Disk</a>
+                <ul>
+                    <li><a href="/pages/contato.html">Entre em Contato</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/index.html">Home</a></li>
+    
+            <li><a href="/pages/cardapio.html">Menu</a>
+            </li>
+        </ul>
+
+        <img src="./styles/images/logo.png">
+        <p>Muito obrigado por colaborar conosco! Não se procupe mais com buscar ofertas e novos sabores, iremos lhe informar de cada novidade. Preencha seus dados abaixo e fique sempre bem informado:</p>
+        <form class="contato" action="">
+            <fieldset id="field">
+                <legend><b>Dados Para Contato</b></legend>
+                <table>
+                    <tr>
+                        <td><label for="nome"><b>Nome: </b></label> </td>
+                        <td><input type="text" id="nome" name="nome" size="50" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><b>E-mail: </b></label></td>
+                        <td><input type="email" name="email" id="email" size="50" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><b>Telefone:</b></label></td>
+                        <td><input type="tel" name="ddd" id="phone" size="1px" required /> -
+                            <input type="tel" name="phone" id="phone" size="8" required /></td>
+                    </tr>
+
+                </table>
+                <th>
+                    <button class="submit" type="submit">Cadastro</button>
+                    <button class="reset" type="reset">Cancelar</button>
+                </th>
+            </fieldset>
+        </form>
+        <div class="footer">
+            <p>Website por: Ana Helena, Bruno Demétrio e João Victor - 1º ETIM DS | </br> Etec Antônio Devisate |
+                01/10/2020</p>
+        </div>
+    </div>
+</body>
+
+</html>
